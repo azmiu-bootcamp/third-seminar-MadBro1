@@ -1,0 +1,6 @@
+matrix=[1,8,3,5,11,9,8]
+value_of_matrix=[]
+for values in matrix:
+    value_of_matrix.append(values)
+sun_of_max_min=max(value_of_matrix)+min(value_of_matrix)
+print("Cəm = "+str(sun_of_max_min))
