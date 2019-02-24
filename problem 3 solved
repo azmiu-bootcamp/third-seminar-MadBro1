@@ -1,0 +1,7 @@
+matris = ['al', 'kitab', 'film', 'yol', 'stul']
+YeniMatris=[]
+for sozler in matris:
+    if len(sozler)>2:
+        YeniMatris.append(sozler)
+print(YeniMatris)        
+        
