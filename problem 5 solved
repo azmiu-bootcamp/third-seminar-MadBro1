@@ -1,0 +1,7 @@
+soz=input("Soz daxil edin: ")
+YeniSoz=""
+if len(soz)<=2:
+    print(YeniSoz)
+else:
+    YeniSoz=soz[0]+soz[1]+soz[len(soz)-2]+soz[len(soz)-1] 
+    print("Yeni soz: "+YeniSoz)
