@@ -1,0 +1,5 @@
+def tuple_son(element):
+    return element[len(matris)-1]
+matris = [(1, 7), (1, 3), (3, 4, 5), (2, 2),(0,0),(10,45)]
+matris.sort(key=tuple_son)
+print(matris)
